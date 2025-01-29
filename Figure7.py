@@ -158,6 +158,6 @@ plt.tight_layout()
 plt.grid(True, which="both", ls="--")
 from matplotlib.ticker import FormatStrFormatter
 ax.xaxis.set_minor_formatter(FormatStrFormatter("%.2f"))
-plt.savefig('Figures/Fig6.png',dpi=300)
-plt.savefig('Figures/Fig6.svg',dpi=300)
+plt.savefig('Figures/Fig7.png',dpi=300)
+plt.savefig('Figures/Fig7.svg',dpi=300)
 plt.close('all')
