@@ -168,5 +168,5 @@ for per_idx, period in enumerate(periods):
 		axs[increment+1].text(-0.10, 1.02, annotations[increment+1] + ')', transform=axs[increment+1].transAxes, size=15)
 
 axs[increment+1].text(0.30, -0.10, 'Red = Non Covid Noisier', transform=axs[increment+1].transAxes, size=8)
-plt.savefig('Figures/Fig3.png',dpi=300, bbox_inches='tight')
-plt.savefig('Figures/Fig3.svg',dpi=300, bbox_inches='tight')
+plt.savefig('Figures/Fig4.png',dpi=300, bbox_inches='tight')
+plt.savefig('Figures/Fig4.svg',dpi=300, bbox_inches='tight')
