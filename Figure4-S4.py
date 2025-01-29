@@ -167,6 +167,6 @@ for per_idx, period in enumerate(periods):
 		fig, ax = draw_map(fig,axs[increment+1],stnames,stlos,stlas,difn,-vmaxn,vmaxn)
 		axs[increment+1].text(-0.10, 1.02, annotations[increment+1] + ')', transform=axs[increment+1].transAxes, size=15)
 
-axs[increment+1].text(0.30, -0.10, 'Red = Non Covid Noisier', transform=axs[increment+1].transAxes, size=8)
+axs[increment+1].text(0.30, -0.10, 'Red = 2022 Noisier', transform=axs[increment+1].transAxes, size=8)
 plt.savefig('Figures/Fig4.png',dpi=300, bbox_inches='tight')
 plt.savefig('Figures/Fig4.svg',dpi=300, bbox_inches='tight')
