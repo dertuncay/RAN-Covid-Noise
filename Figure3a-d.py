@@ -101,5 +101,5 @@ for per_idx, period in enumerate(periods):
 # 	per_db.to_csv('../DBs/CovidDif/' + str(period) + '.csv',index=False)
 
 axs[-1].text(0.45, -0.05, 'Red = Non Covid Noisier', transform=axs[per_idx].transAxes, size=8)
-plt.savefig('Figures/Fig2.png',dpi=300, bbox_inches='tight')
-plt.savefig('Figures/Fig2.svg',dpi=300, bbox_inches='tight')
+plt.savefig('Figures/Fig3.png',dpi=300, bbox_inches='tight')
+plt.savefig('Figures/Fig3.svg',dpi=300, bbox_inches='tight')
