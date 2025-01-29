@@ -87,11 +87,6 @@ f = open('../DBs/jsons/yearly_median_all_covid.json')
 # returns JSON object as a dictionary
 db_covid = json.load(f)
 
-# stas = ['BGMO','BRSA','BNO','DSG','MLBT','SLOB','CAT','PTR','CLG1','BNT','CDI1','SVN',
-# 'BAN','CML','POZS','BCLI','MPCD','TES','CTU','CFL','PNA','PLR','RMMM','RMVT','SBC',
-# 'SNZ','BCN','SAR','SLC1','LVN1','CLM','TNO',
-# 'PTF','MLF','SPS','CES','CRTL','PNAL','SCO','ARR','NVR1','NCIA','BOJ',
-# 'SLD','NCO']
 stas = ['PTF']
 for sta in stas:
 	try:
@@ -125,7 +120,8 @@ for sta in stas:
 		plotBrune(ax)
 
 		ax.legend(loc='lower right')
-		plt.savefig(f'../Figures/NoiseModel/{sta}.png', dpi=300, bbox_inches='tight')
+		plt.savefig(f'Figure8.png', dpi=300, bbox_inches='tight')
+		plt.savefig(f'Figure8.svg', dpi=300, bbox_inches='tight')
 		plt.close(fig)
 	except:
 		print(f'Problem in station: {sta}')
